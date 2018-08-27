@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div style="text-align: center">
+        <h2>Felix Alberto Alfaro Pretel</h2>
+        <p>Profesional en Ingeniería de Sonido</p>
+    </div>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/Style.css" />
+
+    <div id="sect_der">
+        <svg></svg>
+        <img src="Imagenes/Mi_Foto.jpg" style="width:199px;height:270px;">
+        <svg></svg>
+    </div>
+
+    <div id="sect_izq">
+        <div class="tab">
+            <button class="tablinks" onclick="Opentab(event, 'Perfil')">Perfil</button>
+            <button class="tablinks" onclick="Opentab(event, 'info. Contacto')">Información de Contacto</button>
+            <button class="tablinks" onclick="Opentab(event, 'Estudios')">Estudios</button>
+            <button class="tablinks" onclick="Opentab(event, 'Referencias')">Referencias</button>
+            <button class="tablinks" onclick="Opentab(event, 'Formación Adicional')">Formación Adicional</button>
+            <button class="tablinks" onclick="Opentab(event, 'Intereses')">Intereses</button>
+            <button class="tablinks" onclick="Opentab(event, 'Experiencia')">Experiencia</button>
+        </div>
+        
+        <div id="Perfil" class="tabcontent">
+            <p>
+                Soy Ingeniero, con excelente manejo de relaciones interpersonales, buenas aptitudes técnicas y profesionales
+                como también habilidades y destreza en el diseño, implementación y evaluación en las áreas de acústica y
+                electrónica, facilidad en el manejo y adaptación a distintos software y sistemas operativos, cuento con una gran
+                pasión por aprender nuevos temas y adquirir nuevos conocimientos. Mi liderazgo y disposición para trabajar en
+                equipo y bajo presión me permite afianzar el seguimiento de objetivos personales y laborales de acuerdo a la
+                continua búsqueda del mejoramiento de procesos.
+            </p>
+        </div>
+        
+        <div id="info. Contacto" class="tabcontent">
+            <p><div><b>Fecha de nacimiento:</b></div><div>22 septiembre de 1986</div></p>
+            <div><b>Dirección de residencia:</b></div>
+            <div>Calle 138 No. 54-60 Casa 44, Bogotá, Colombia</div>
+            <p><b>Tel: </b> 752 2681 / 316 588 5054</p>
+            <p><b>Email: </b> alfarofel@gmail.com.</p>
+        </div>
+        
+        <div id="Estudios" class="tabcontent">
+            <p>
+                <div style="font-size: 18px"><b>Ingeniero de Sonido</b></div>
+                <div>2013 Bogotá - Colombia Universidad de San Buenaventura</div>
+            </p>
+            <p>
+                <div style="font-size: 18px"><b>Bachiller Académico</b></div>
+                <div>2006 Bogotá - Colombia Colegio para hijos de empleados de la Contraloría General de la República</div>
+            </p>
+            <p>
+                <div style="font-size: 18px"><b>Idiomas:</b></div>
+                <div>Español: Natal</div>
+                <div>Ingles: Básico</div>
+                <br>
+            </p>
+        </div>
+        
+        <div id="Referencias" class="tabcontent">
+            <p>
+                <div style="font-size: 18px"><b>Andrés Fernando Grondona Orozco, Arquitecto</b></div>
+                <div>Amigos y compañeros de estudios (Bogotá-Colombia)</div><div>Teléfono : 301 754 3525</div>
+                <div>E-mail : afgo_4@hotmail.com</div>
+            </p>
+            <p>
+                <div style="font-size: 18px"><b>Andrés Felipe Giraldo Granada, Desarrollador de Software</b></div>
+                <div>Amigos y compañeros de estudios (Bogotá-Colombia)</div>
+                <div>Teléfono : 314 293 9577</div>
+                <div>E-mail : andres57706@gmail.com  </div>
+            </p>
+        </div>
+        
+        <div id="Formación Adicional" class="tabcontent">
+            <p>
+                <div style="font-size: 18px"><b>Diplomado en Acústica y Control de Ruido en Proyectos de Construcción</b></div>
+                <div>Dictado por los Ingenieros Alexander Garcia y Javier Serrano</div>
+                <div>Con una duración de 120 horas</div>
+                <div><b>Universidad de San Buenaventura</b></div>
+                <div>Realizado del 16 de marzo al 17 de junio de 2013</div>
+            </p>
+            <p>
+                <div style="font-size: 18px"><b>Curso Práctico en Gestión de Ruido</b></div>
+                <div>Dictado por el Ingeniero Franklin Serrano</div>
+                <div>Con una duración de 12 horas</div>
+                <div><b>Instalaciones Control Acùstico</b></div>
+                <div>Realizado el 1 y 2 de agosto de 2012</div>
+            </p>
+            <p>
+                <div style="font-size: 18px"><b>Diplomado en Arte y Comunicación Visual</b></div>
+                <div>Con una duración de 144 horas</div>
+                <div><b>Universidad de San Buenaventura</b></div>
+                <div>Realizado del 1 de febrero de 2011 al 30 de junio de 2012</div>
+            </p>
+        </div>
+        
+        <div id="Intereses" class="tabcontent">
+            <h4>Deportes y Hobbies:</h4>
+            <p>Con respecto al deporte, me gusta practicar Boxeo y ejercicio funcional.</p>
+            <p>Las actividades sociales que mas disfruto son ir a cine, salir a conocer diferente sitios y probar diferente clases de comidas.</p>
+        </div>
+
+        <div id="Experiencia" class="tabcontent">
+            <div class="tabvert">
+                <button class="tablinksvert" onclick="openExp(event, 'Plataforma')" id="defaultOpen">Plataforma</button>
+                <button class="tablinksvert" onclick="openExp(event, 'Sistemas')">Sistemas</button>
+                <button class="tablinksvert" onclick="openExp(event, 'SDA')">SDA</button>
+                <button class="tablinksvert" onclick="openExp(event, 'CA')">CA</button>
+            </div>
+                
+            <div id="Plataforma" class="tabcontentvert">
+                <p>
+                    <div style="font: size 22px;"><b>PLATAFORMA DE COMUNICACIONES S.A.S.</b></div>
+                    <div>Sector: Eventos y servicios.</div>
+                    <div>08/2015 - 12/2016</div>
+                    <div>Bogotá, Colombia.</div>
+                </p>
+                <p>
+                    <ul>
+                        <div style="font: size 20px;"><b>Cargo ocupado: Coordinador de eventos</b></div>
+                        <div style="font: size 20px; float: left; width: 25%;"><b>Tareas realizadas:</b></div>
+                        <div id="derecha">
+                            <li>Realizar la planeación, organización y realización de eventos.</li>
+                            <li>Atender a los clientes y participantes a los respectivos eventos.</li>
+                            <li>Coordinar con las diferentes areas para la realización de los eventos.</li>
+                            <li>Atender las diferentes solicitudes realizada por los hoteles y su personal.</li>
+                            <p>
+                                <div style="font: size 20px; float: left; width: 25%;">
+                                    <b>Referencia Laboral:</b>
+                                </div>
+                                <div>Felipe Vidal, Jefe de operación, Comercial.</div>
+                                <div><b>Tel: </b> 300 612 9263 / 315 505 0874 <b>E-mail: </b> yeison.vidal@plataforma.com.co.</div>
+                            </p>
+                        </div>
+                    </ul>
+                </p>
+            </div>
+                
+            <div id="Sistemas" class="tabcontentvert">
+                    <p>
+                        <div style="font: size 22px;"><b>SISTEMAS S.A.S.</b></div>
+                        <div>Sector Ingenieria.</div>
+                        <div>(13/01 - 31/01) 2016</div>
+                        <div>Bogotá, Colombia.</div>
+                    </p>
+                    <p>
+                        <ul>
+                            <div style="font: size 20px;"><b>Cargo ocupado: Ingeniero Electrónico</b></div>
+                            <div style="font: size 20px; float: left; width: 25%;"><b>Tareas realizadas:</b></div>
+                            <div id="derecha">
+                                <li>Implementación del sistema electrónico de un simulador de auxiliarres de vuelo.</li>
+                                <p>
+                                    <div style="font: size 20px; float: left; width: 25%;">
+                                        <b>Referencia Laboral:</b>
+                                    </div>
+                                    <div>Andrés Eduardo Torres Hernández, Ingeniero a cargo.</div>
+                                    <div><b>Tel: </b> 321 258 1939 <b>E-mail: </b> andresedtorres@gmail.com.</div>
+                                </p>
+                            </div>
+                        </ul>
+                    </p>
+            </div>
+                
+            <div id="SDA" class="tabcontentvert">
+                    <p>
+                        <div style="font: size 22px;"><b>SECRETARIA DISTRITAL DE AMBIENTE</b></div>
+                        <div>Sector: Ambiental.</div>
+                        <div>09/2014 - 01/2015</div>
+                        <div>Bogotá, Colombia.</div>
+                    </p>
+                    <p>
+                        <ul>
+                            <div style="font: size 20px;"><b>Cargo ocupado: Tecnico de Campo</b></div>
+                            <div style="font: size 20px; float: left; width: 25%;"><b>Objetivo del contrato:</b></div>
+                            <div id="derecha">
+                                <li>Prestar sus servicios profesionales para desarrollar actividades relacionadas con el
+                                        monitoreo, seguimiento y control a fuentes fijas generadoras de ruido.</li>
+                                <p>
+                                    <div style="font: size 20px; float: left; width: 25%;">
+                                        <b>Referencia Laboral:</b>
+                                    </div>
+                                    <div>Adriana Amado, Coordinadora.</div>
+                                    <div><b>Tel: </b> 377 8936</div>
+                                </p>
+                            </div>
+                        </ul>
+                    </p>
+            </div>
+
+            <div id="CA" class="tabcontentvert">
+                    <p>
+                        <div style="font: size 22px;"><b>CONTROL ACÚSTICO DE COLOMBIA S.A.S.</b></div>
+                        <div>Sector: Ingenieria.</div>
+                        <div>03/2011 - 09/2014</div>
+                        <div>Bogotá, Colombia.</div>
+                    </p>
+                    <p>
+                        <ul>
+                            <div style="font: size 20px;"><b>Cargo ocupado: Ingeniero de Soporte</b></div>
+                            <div style="font: size 20px; float: left; width: 25%;"><b>Tareas realizadas:</b></div>
+                            <div id="derecha">
+                                <li>Realizar asesoramiento a los diferentes proyectos de la empresa.</li>
+                                <li>Participar activamente en el desarrollo de mediciones de campo.</li>
+                                <li>Analizar, verificar y procesar todo lo correspondiente a señales de audio.</li>
+                                <li>Hacer seguimiento y control a la ejecución de obras.</li>
+                                <p>
+                                    <div style="font: size 20px; float: left; width: 25%;">
+                                        <b>Referencia Laboral:</b>
+                                    </div>
+                                    <div>Franklin Serrano P., Ingeniero a cargo.</div>
+                                    <div><b>Tel: </b> 755 7176 / 304 402 2595 <b>E-mail: </b> controlacustico@gmail.com.</div>
+                                </p>
+                            </div>
+                        </ul>
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="JavaScript/JavaScript.js"></script>
+</body>
+</html>
